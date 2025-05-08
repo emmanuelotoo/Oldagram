@@ -5,24 +5,27 @@ html, body {
 }
 
 h1 {
-    border-bottom: 1px solid #c4c4c4;
+    border-bottom: 0.0625rem solid #c4c4c4; /* 1px / 16px */
 }
 
 .oldagram {
-    width: 127px;
-    height: 100px;
+    width: 7.9375rem; /* 127px / 16px */
+    height: 6.25rem; /* 100px / 16px */
 }
 
 .profile {
     border-radius: 50%;
-    width: 34px;
-    height: 34px;
+    width: 2.125rem; /* 34px / 16px */
+    height: 2.125rem; /* 34px / 16px */
+}
+
+#container, .img-div {
+    display: flex;
+    align-items: center;
 }
 
 #container {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 section .profile {
@@ -30,13 +33,13 @@ section .profile {
 }
 
 .sub {
-    margin-left:52px;
+    margin-left: 3.25rem; /* 52px / 16px */
 }
 
 .sub-2 {
-    margin-left: 52px;
-    margin-top: -20;
-    font-size: 13px;
+    margin-left: 3.25rem; /* 52px / 16px */
+    margin-top: -1.25rem; /* -20px / 16px */
+    font-size: 0.8125rem; /* 13px / 16px */
 }
 
 .post {
@@ -45,14 +48,15 @@ section .profile {
 }
 
 .icons {
-    width: 30px;
-    height: 30px;
-    
+    width: 1.875rem; /* 30px / 16px */
+    height: 1.875rem; /* 30px / 16px */
 }
 
 .img-div {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+    margin-top: 0.625rem; /* 10px / 16px */
+    gap: 0.625rem; /* 10px / 16px */
+}
+
+.icons:hover {
+    opacity: 0.33;
 }
