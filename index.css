@@ -38,3 +38,21 @@ section .profile {
     margin-top: -20;
     font-size: 13px;
 }
+
+.post {
+    width: 100%;
+    height: auto;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.img-div {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
