@@ -1,5 +1,40 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
 }
 
+h1 {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.oldagram {
+    width: 127px;
+    height: 100px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .profile {
+    float: left;
+}
+
+.sub {
+    margin-left:52px;
+}
+
+.sub-2 {
+    margin-left: 52px;
+    margin-top: -20;
+    font-size: 13px;
+}
